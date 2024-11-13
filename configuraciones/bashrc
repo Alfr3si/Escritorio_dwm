@@ -1,0 +1,15 @@
+
+# ~/.bashrc
+
+# Habilitar colores en la terminal
+force_color_prompt=yes
+
+# Personalizar el PS1 con más colores
+PS1='\[\e[1;36m\][\[\e[0;32m\]\u\[\e[1;36m\]@\[\e[0;33m\]\h \[\e[0;34m\]\W\[\e[1;36m\]]\[\e[1;35m\]\$\[\e[0m\] '
+
+# Alias para mostrar colores en ls y grep
+alias ls='lsd --color=auto'
+alias grep='grep --color=auto'
+
+# Añadir ruta de scripts
+export PATH="$HOME/.config/Escritorio_dwm/dwm-6.5/scripts:$PATH"
